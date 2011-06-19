@@ -2,8 +2,8 @@
 ** If this directory does not exist, create it.
 * Configure the module and handler to be loaded in the application. 
 ** Open the IIS7 Administration tool
-** In the tool, double-click on your server node in the left-hand tree view, then expand the “Sites” node, and double-click on the site or application to which you would like to add your module and handler.
-*** Select the “Modules” feature icon, then click the “Add Managed Module …” action, and in the resulting dialog box type in the module name (arbitrary) and the fully-qualified module type “RemoveEtag.EtagHttpModule”.
+** In the tool, double-click on your server node in the left-hand tree view, then expand the "Sites" node, and double-click on the site or application to which you would like to add your module and handler.
+*** Select the "Modules" feature icon, then click the "Add Managed Module …" action, and in the resulting dialog box type in the module name (arbitrary) and the fully-qualified module type "RemoveEtag.EtagHttpModule".
 *** Press OK to add the module.
 
 NO MORE ETAGS!
